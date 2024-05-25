@@ -1884,7 +1884,7 @@ body:not(.is-mobile) .tt-style-switch:hover {
   }
 }
 .header-area.style-1 .header-logo img {
-  width: 175px;
+  width: 275px;
   max-width: unset;
 }
 @media (max-width: 1199px) {
@@ -6998,6 +6998,9 @@ footer {
   padding: 110px 0 0;
   position: relative;
   z-index: 1;
+}
+.footer-logo img {
+  width: 350px;
 }
 @media (max-width: 1199px) {
   footer {
