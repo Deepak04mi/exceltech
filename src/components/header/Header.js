@@ -15,7 +15,7 @@ const Header = ( {style=""}) => {
  <Sidebar isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} />
     <header className={`header-area style-1 ${style}`}>
       <div className="header-logo">
-        <Link href="/"><img alt="image" className="img-fluid dark" src="/assets/img/white-logo.svg" /></Link>
+        <Link href="/"><img alt="image" className="img-fluid dark" src="/assets/img/logo-light.png" /></Link>
         <Link href="/"><img alt="image" className="img-fluid light" src="/assets/img/black-logo.svg" /></Link>
       </div>
       <div className="menu-wrap">
