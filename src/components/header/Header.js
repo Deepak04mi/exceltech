@@ -16,22 +16,22 @@ const Header = ( {style=""}) => {
     <header className={`header-area style-1 ${style}`}>
       <div className="header-logo">
         <Link href="/"><img alt="image" className="img-fluid dark" src="/assets/img/logo-light.png" /></Link>
-        <Link href="/"><img alt="image" className="img-fluid light" src="/assets/img/black-logo.svg" /></Link>
+        <Link href="/"><img alt="image" className="img-fluid light" src="/assets/img/logo.png" /></Link>
       </div>
       <div className="menu-wrap">
         <div className="main-menu">
           <div className="mobile-logo-area d-lg-none d-flex justify-content-between align-items-center">
             <div className="mobile-logo-wrap">
-              <Link href="/"><img alt="image" src="/assets/img/black-logo.svg" /></Link>
+              <Link href="/"><img alt="image" src="/assets/img/logo.png" /></Link>
             </div>
           </div>
           <ul className="menu-list">
             <li className="menu-item-has-children ">
-              <a href="#" className="drop-down">Home</a><i className="bi bi-plus dropdown-icon" />
+              <a href="/" className="drop-down">Home</a><i className="bi bi-plus dropdown-icon" />
               <svg xmlns="http://www.w3.org/2000/svg" width={18} height={10} viewBox="0 0 18 10">
                 <path d="M18 4.95V10H13.0154V8.62143H15.7362L10.6962 3.50714L6.59769 7.65714L0 0.978571L0.962308 0L6.59769 5.71429L10.6962 1.56429L16.6154 7.57857V4.95H18Z" />
               </svg>
-              <ul className="sub-menu">
+              {/* <ul className="sub-menu">
                 <li className=""><Link href="/">Light Version</Link>
                   <i className="bi bi-chevron-right dropdown-icon" />
                   <ul className="sub-menu">
@@ -54,27 +54,27 @@ const Header = ( {style=""}) => {
                     <li><Link href="/saas-product-dark">SaaS Product</Link></li>
                   </ul>
                 </li>
-              </ul>
+              </ul> */}
             </li>
             <li className="menu-item-has-children">
-              <a href="#" className="drop-down">Services</a><i className="bi bi-plus dropdown-icon" />
+              <a href="/service" className="drop-down">Services</a><i className="bi bi-plus dropdown-icon" />
               <svg xmlns="http://www.w3.org/2000/svg" width={18} height={10} viewBox="0 0 18 10">
                 <path d="M18 4.95V10H13.0154V8.62143H15.7362L10.6962 3.50714L6.59769 7.65714L0 0.978571L0.962308 0L6.59769 5.71429L10.6962 1.56429L16.6154 7.57857V4.95H18Z" />
               </svg>
-              <ul className="sub-menu">
+              {/* <ul className="sub-menu">
                 <li><Link href="/services1">Service Style 01</Link></li>
                 <li><Link href="/service2">Service Style 02</Link></li>
                 <li><Link href="/service3">Service Style 03</Link></li>
                 <li><Link href="/service4">Service Style 04</Link></li>
                 <li><Link href="/service-details">Service Details</Link></li>
-              </ul>
+              </ul> */}
             </li>
             <li className="menu-item-has-children">
-              <Link href="#" className="drop-down">Pages</Link><i className="bi bi-plus dropdown-icon" />
+              <Link href="/about" className="drop-down">about us</Link><i className="bi bi-plus dropdown-icon" />
               <svg xmlns="http://www.w3.org/2000/svg" width={18} height={10} viewBox="0 0 18 10">
                 <path d="M18 4.95V10H13.0154V8.62143H15.7362L10.6962 3.50714L6.59769 7.65714L0 0.978571L0.962308 0L6.59769 5.71429L10.6962 1.56429L16.6154 7.57857V4.95H18Z" />
               </svg>
-              <ul className="sub-menu">
+              {/* <ul className="sub-menu">
                 <li><Link href="/about">about us</Link></li>
                 <li><Link href="/about-me">about me</Link></li>
                 <li>
@@ -134,14 +134,14 @@ const Header = ( {style=""}) => {
                 <li><Link href="/faq">FAQs</Link></li>
                 <li><Link href="/error">Error 404</Link></li>
                 <li><Link href="/terms-conditions">Terms &amp; Conditions</Link></li>
-              </ul>
+              </ul> */}
             </li>
             <li className="menu-item-has-children">
-              <Link href="#" className="drop-down">Portfolio </Link><i className="bi bi-plus dropdown-icon" />
+              <Link href="/portfolio-manonery" className="drop-down">Portfolio </Link><i className="bi bi-plus dropdown-icon" />
               <svg xmlns="http://www.w3.org/2000/svg" width={18} height={10} viewBox="0 0 18 10">
                 <path d="M18 4.95V10H13.0154V8.62143H15.7362L10.6962 3.50714L6.59769 7.65714L0 0.978571L0.962308 0L6.59769 5.71429L10.6962 1.56429L16.6154 7.57857V4.95H18Z" />
               </svg>
-              <ul className="sub-menu">
+              {/* <ul className="sub-menu">
                 <li><Link href="/portfolio-manonery">Portfolio Masonery</Link></li>
                 <li><Link href="/portfolio-vertical-grid">Portfolio Vertical Grid</Link></li>
                 <li><Link href="/portfolio-showcase">Portfolio Showcase</Link></li>
@@ -152,7 +152,7 @@ const Header = ( {style=""}) => {
                 <li><Link href="/portfolio-interactive-banner">Interactive Banner</Link></li>
                 <li><Link href="/portfolio-interactive-link">Interactive links</Link></li>
                 <li><Link href="/portfolio-details">Portfolio Details</Link></li>
-              </ul>
+              </ul> */}
             </li>
             <li><Link href="/contact">Contact Us</Link></li>
           </ul>

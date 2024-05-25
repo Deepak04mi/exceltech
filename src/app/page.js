@@ -11,9 +11,9 @@ import Home1TestimonialSection from "@/components/testimonial-section/home1-test
 import HomeworkSection from "@/components/work-section/Homework-section";
 
 export const metadata = {
-  title: "Axleo - Digital Agency Creative Portfolio Template",
+  title: "Excel Technologies - Creative Agency",
   icons: {
-    icon: "/assets/img/sm-logo.svg",
+    icon: "/assets/img/fav.png",
   },
 };
 export default function Home() {

@@ -1,11 +1,11 @@
-import Fooer3 from "@/components/Footer/Footer3";
+import Footer from "@/components/Footer/Footer";
 import Header from "@/components/header/Header";
 import React from "react";
 
 export const metadata = {
-  title: "Axleo - Digital Agency Creative Portfolio Template",
+  title: "Excel Technologies - Digital Agency",
   icons: {
-    icon: "/assets/img/sm-logo.svg",
+    icon: "/assets/img/fav.png",
   },
 };
 
@@ -31,7 +31,7 @@ const ContactPage = () => {
             <div className="row gy-5 justify-content-between">
               <div className="col-xl-4">
                 <div className="row">
-                  <div className="col-xl-12 col-md-6">
+                  {/* <div className="col-xl-12 col-md-6">
                     <div className="single-location mb--30">
                       <div className="title">
                         <h4>Sydne, Australia</h4>
@@ -85,11 +85,11 @@ const ContactPage = () => {
                         </li>
                       </ul>
                     </div>
-                  </div>
+                  </div> */}
                   <div className="col-xl-12 col-md-6">
                     <div className="single-location">
                       <div className="title">
-                        <h4>New York, USA</h4>
+                        <h4>Head Office</h4>
                       </div>
                       <ul>
                         <li>
@@ -236,7 +236,7 @@ const ContactPage = () => {
         </div>
       </div>
 
-      <Fooer3 />
+      <Footer />
     </>
   );
 };

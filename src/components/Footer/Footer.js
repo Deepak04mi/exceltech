@@ -51,21 +51,7 @@ const Footer = () => {
                       </Link>
                     </li>
                     <li>
-                      <Link href="our-team1">Our Team
-                        <svg xmlns="http://www.w3.org/2000/svg" width={10} height={10} viewBox="0 0 10 10">
-                          <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
-                        </svg>
-                      </Link>
-                    </li>
-                    <li>
                       <Link href="portfolio-manonery">Our Portfolio
-                        <svg xmlns="http://www.w3.org/2000/svg" width={10} height={10} viewBox="0 0 10 10">
-                          <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
-                        </svg>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="career-list">Careers <span>Hiring</span>
                         <svg xmlns="http://www.w3.org/2000/svg" width={10} height={10} viewBox="0 0 10 10">
                           <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
                         </svg>
@@ -133,10 +119,10 @@ const Footer = () => {
             <div className="col-xl-7 d-flex justify-content-lg-end">
               <div className="solial-account">
                 <ul>
-                  <li><a href="https://dribbble.com/">Dribbble</a></li>
-                  <li><a href="https://www.behance.net/">Behance</a></li>
-                  <li><a href="https://www.pinterest.com/">Pinterest</a></li>
-                  <li><a href="https://www.facebook.com/">Facebook</a></li>
+                  <li><a href="#">Dribbble</a></li>
+                  <li><a href="#">Behance</a></li>
+                  <li><a href="#">Pinterest</a></li>
+                  <li><a href="#">Facebook</a></li>
                 </ul>
               </div>
             </div>
@@ -145,7 +131,7 @@ const Footer = () => {
             <div className="col-lg-12">
               <div className="footer-logo-contact-wrap">
                 <div className="footer-logo">
-                  <Link href="/"><img src="assets/img/white-logo.svg" alt="footer-logo" /></Link>
+                  <Link href="/"><img src="assets/img/logo-light.png" alt="footer-logo" /></Link>
                 </div>
                 <ul className="footer-contact">
                   <li className="single-contact">
@@ -154,7 +140,7 @@ const Footer = () => {
                   </li>
                   <li className="single-contact">
                     <span>Email Now</span>
-                    <h5><a href="mailto:info@examplegmail.com">info@examplegmail.com</a>
+                    <h5><a href="mailto:info@examplegmail.com">info@exceltechnologies.com</a>
                     </h5>
                   </li>
                 </ul>
@@ -164,7 +150,7 @@ const Footer = () => {
         </div>
         <div className="footer-btm">
           <div className="copyright-area">
-            <p>Copyright 2024 <a href="#">Axleo</a> | Design By <a href="https://www.egenslab.com/">EGENSLAB </a></p>
+            <p>Copyright 2024 <a href="#">Excel Technologies</a> | Design By <a href="https://hastechsolutions.co.uk/">Hastech Solutions </a></p>
           </div>
           <div className="terms-condition">
             <p>

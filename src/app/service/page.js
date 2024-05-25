@@ -1,16 +1,16 @@
-import Footer3 from "@/components/Footer/Footer3";
+import Footer from "@/components/Footer/Footer";
 import Breadcrumb from "@/components/common/Breadcrumb";
 import PartnerArea from "@/components/common/partner-area";
 import ContactSectionThree from "@/components/contact-section/contact-section-three";
-import InnerPageHeader from "@/components/header/InnerPageHeader";
+import InnerPageHeader from "@/components/header/Header";
 import Home1ProcessSection from "@/components/process-section/home1-process-section";
 import Home1solutionSection from "@/components/solution-section/Home1solution-section";
 import React from "react";
 
 export const metadata = {
-  title: "Axleo - Digital Agency Creative Portfolio Template",
+  title: "Excel Technologies - Digital Agency",
   icons: {
-    icon: "/assets/img/sm-logo.svg",
+    icon: "/assets/img/fav.png",
   },
 };
 
@@ -241,7 +241,7 @@ const service2 = () => {
       </div>
       <PartnerArea />
       <ContactSectionThree />
-      <Footer3 />
+      <Footer />
     </>
   );
 };

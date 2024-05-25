@@ -47,8 +47,8 @@ function Sidebar( { isMenuOpen, toggleMenu  }) {
     <div className={`sidebar-area ${isMenuOpen ? 'active' : ''}`}>
       <div className="sidebar-menu-top-area">
         <div className="sidebar-menu-logo">
-          <Link className="logo-dark" href="/"><img alt="image" className="img-fluid" src="/assets/img/black-logo.svg" /></Link>
-          <Link className="logo-light" href="/"><img alt="image" className="img-fluid" src="/assets/img/white-logo.svg" /></Link>
+          <Link className="logo-dark" href="/"><img alt="image" className="img-fluid" src="/assets/img/logo.png" /></Link>
+          <Link className="logo-light" href="/"><img alt="image" className="img-fluid" src="/assets/img/logo-light.png" /></Link>
         </div>
         <div className="nav-right d-flex jsutify-content-end align-items-center">
           <div className="sidebar-menu-close"  onClick={toggleMenu}>
@@ -97,7 +97,7 @@ function Sidebar( { isMenuOpen, toggleMenu  }) {
                     </div>
                     <div className="contact">
                       <span>Email Now</span>
-                      <h6><a href="mailto:info@examplegmail.com">info@examplegmail.com</a>
+                      <h6><a href="mailto:info@exceltechnologies.co.uk">info@exceltechnologies.co.uk</a>
                       </h6>
                     </div>
                   </li>
@@ -109,7 +109,7 @@ function Sidebar( { isMenuOpen, toggleMenu  }) {
                       </svg>
                     </div>
                     <div className="contact">
-                      <span>Canada Office</span>
+                      <span>Head Office</span>
                       <h6><a href="https://www.google.com/maps">Canada City, Office-02,
                           Road-11, House-3B/B, Section-H</a></h6>
                     </div>
@@ -139,8 +139,8 @@ function Sidebar( { isMenuOpen, toggleMenu  }) {
             <div className="sidebar-menu-wrap">
               <ul className="main-menu">
                 <li className={state.activeMenu==="home"?"active":""}>
-                  <a href="#">Home</a>
-                  <span className={`dropdown-icon2 ${state.activeMenu==="home"?"active":""} `}><i className={`bi ${state.activeMenu === "home" ? "bi-dash" : "bi-plus"}`}  onClick={()=>collapseMenu("home")} /></span>
+                  <a href="/">Home</a>
+                  {/* <span className={`dropdown-icon2 ${state.activeMenu==="home"?"active":""} `}><i className={`bi ${state.activeMenu === "home" ? "bi-dash" : "bi-plus"}`}  onClick={()=>collapseMenu("home")} /></span>
                   <ul className={`submenu-list ${state.activeMenu==="home"?"active":""}`}>
                     <li className={state.activeMenu==="home"?"active":""}>
                       <Link href="">Light Version</Link>
@@ -167,11 +167,11 @@ function Sidebar( { isMenuOpen, toggleMenu  }) {
                         <li><Link href="/saas-product-dark">SaaS Product</Link></li>
                       </ul>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
                 <li className={state.activeMenu==="service"?"active":""}>
-                  <a href="#">Services</a>
-                  <span className={`dropdown-icon2 ${state.activeMenu==="service"?"active":""} `}><i className={`bi ${state.activeMenu === "service" ? "bi-dash" : "bi-plus"}`}  onClick={()=>collapseMenu("service")} /></span>
+                  <a href="/services">Service</a>
+                  {/* <span className={`dropdown-icon2 ${state.activeMenu==="service"?"active":""} `}><i className={`bi ${state.activeMenu === "service" ? "bi-dash" : "bi-plus"}`}  onClick={()=>collapseMenu("service")} /></span>
                   <ul className={`submenu-list ${state.activeMenu==="service"?"active":""}`}>
                     <li>
                       <Link href="/services1">Service Style 01
@@ -208,11 +208,11 @@ function Sidebar( { isMenuOpen, toggleMenu  }) {
                         </svg>
                       </Link>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
                 <li className={state.activeMenu==="page"?"active":""}>
-                  <a href="#">Pages</a>
-                  <span className={`dropdown-icon2 ${state.activeMenu==="page"?"active":""} `}><i className={`bi ${state.activeMenu === "page" ? "bi-dash" : "bi-plus"}`}  onClick={()=>collapseMenu("page")} /></span>
+                  <a href="/about">About Us</a>
+                  {/* <span className={`dropdown-icon2 ${state.activeMenu==="page"?"active":""} `}><i className={`bi ${state.activeMenu === "page" ? "bi-dash" : "bi-plus"}`}  onClick={()=>collapseMenu("page")} /></span>
                   <ul className={`submenu-list ${state.activeMenu==="page"?"active":""}`}>
                     <li>
                       <Link href="/about">About Us
@@ -310,11 +310,11 @@ function Sidebar( { isMenuOpen, toggleMenu  }) {
                         </svg>
                       </Link>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
                 <li className={state.activeMenu==="portfolio"?"active":""}>
-                  <a href="#">Portfolio </a>
-                  <span className={`dropdown-icon2 ${state.activeMenu==="portfolio"?"active":""} `}><i className={`bi ${state.activeMenu === "portfolio" ? "bi-dash" : "bi-plus"}`}  onClick={()=>collapseMenu("portfolio")} /></span>
+                  <a href="/portfolio-manonery">Portfolio </a>
+                  {/* <span className={`dropdown-icon2 ${state.activeMenu==="portfolio"?"active":""} `}><i className={`bi ${state.activeMenu === "portfolio" ? "bi-dash" : "bi-plus"}`}  onClick={()=>collapseMenu("portfolio")} /></span>
                   <ul className={`submenu-list ${state.activeMenu==="portfolio"?"active":""}`}>
                     <li>
                       <Link href="/portfolio-manonery">Portfolio Masonery
@@ -380,7 +380,7 @@ function Sidebar( { isMenuOpen, toggleMenu  }) {
                         </svg>
                       </Link>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
                 <li><Link href="/contact">Contact Us</Link></li>
               </ul>

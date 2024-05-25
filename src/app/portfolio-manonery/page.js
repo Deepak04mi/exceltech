@@ -1,7 +1,14 @@
-import Footer3 from "@/components/Footer/Footer3";
+import Footer from "@/components/Footer/Footer";
 import Header from "@/components/header/Header";
 import Link from "next/link";
 import React from "react";
+
+export const metadata = {
+  title: "Excel Technologies - Digital Agency",
+  icons: {
+    icon: "/assets/img/fav.png",
+  },
+};
 
 const Portfolioesonary = () => {
   return (
@@ -274,7 +281,7 @@ const Portfolioesonary = () => {
           </div>
         </div>
       </div>
-      <Footer3 />
+      <Footer />
     </>
   );
 };

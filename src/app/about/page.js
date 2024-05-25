@@ -1,4 +1,4 @@
-import Footer3 from "@/components/Footer/Footer3";
+import Footer from "@/components/Footer/Footer";
 import Home1AwardSection from "@/components/award-section/home1-award-section";
 import Header from "@/components/header/Header";
 import Home1TestimonialSection from "@/components/testimonial-section/home1-testimonial-section";
@@ -7,9 +7,9 @@ import React from "react";
 import Marquee from "react-fast-marquee";
 
 export const metadata = {
-  title: "Axleo - Digital Agency Creative Portfolio Template",
+  title: "Excel Technologies - Digital Agency",
   icons: {
-    icon: "/assets/img/sm-logo.svg",
+    icon: "/assets/img/fav.png",
   },
 };
 
@@ -817,7 +817,7 @@ const AboutPage = () => {
             </div>
           </div>
         </div>
-        <Footer3 />
+        <Footer />
       </main>
     </>
   );
